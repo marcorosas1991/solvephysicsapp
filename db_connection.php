@@ -5,7 +5,8 @@
  */
 
 function db_link() {
-   $host = 'localhost';
+  //  $host = 'localhost';
+   $host = 'db588990255.db.1and1.com';
    $db = 'db588990255';
    $usr = 'dbo588990255';
    $pass = 'Cd9j2qShUGFWwRn7';
