@@ -18,11 +18,16 @@ a {
 }
 
 #main_text p {
-  margin: 100px;
+  margin: 70px;
 }
 
 #logo_name h1 {
   display: inline;
+}
+
+.download_app {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .solid_green_button {
