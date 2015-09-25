@@ -17,7 +17,7 @@ $lang = filter_input(INPUT_GET, 'lang');
 include 'trans_index.php';
 session_start();
 if (!isset($_SESSION['lang'])) {
-    $_SESSION['lang']=0;
+    $_SESSION['lang']=1;
 }
 
 if ($lang != NULL) {
